@@ -24,3 +24,11 @@ process of appending one string to another is called concatenation.
 When you introduce a new piece of data into a JavaScript program, the browser saves it as an instance of the data type. All data types have access to specific properties that are passed down to each instance.
 eg : console.log('Teaching the world how to code'.length);
     length= 30
+7. Methods : Remember that methods are actions we can perform. Data types have access to specific methods that allow us to handle instances of that data type. JavaScript provides a number of string methods.
+
+We call, or use, these methods by appending an instance with:
+
+a period (the dot operator)
+the name of the method
+opening and closing parentheses
+
