@@ -42,3 +42,9 @@ The great thing about objects is that they have methods!
 eg : console.log(Math.floor(Math.random() * 100));
 console.log(Math.ceil(43.8));
 console.log(Number.isInteger(2017));
+
+9.Variables : variables label and store data in memory. There are only a few things you can do with variables:
+
+Create a variable with a descriptive name.
+Store or update information stored in a variable.
+Reference or “get” information stored in a variable.
