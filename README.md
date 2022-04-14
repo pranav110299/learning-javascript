@@ -48,3 +48,8 @@ console.log(Number.isInteger(2017));
 Create a variable with a descriptive name.
 Store or update information stored in a variable.
 Reference or “get” information stored in a variable.
+Creating a variable- eg: 
+var favoriteFood = 'pizza';
+var numOfSlices = 8;
+console.log(favoriteFood);
+console.log(numOfSlices);
