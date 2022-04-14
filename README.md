@@ -39,3 +39,6 @@ console.log('    Remove whitespace   '.trim());
 For example, if you wanted to perform more complex mathematical operations than arithmetic, JavaScript has the built-in Math object.
 
 The great thing about objects is that they have methods! 
+eg : console.log(Math.floor(Math.random() * 100));
+console.log(Math.ceil(43.8));
+console.log(Number.isInteger(2017));
