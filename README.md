@@ -69,3 +69,14 @@ logical operators
 truthy vs falsy values
 ternary operators
 switch statement
+
+11. If else staements :
+eg: let sale = true;
+
+sale = false;
+
+if (sale) {
+  console.log('Time to buy!');
+} else {
+  console.log('Time to wait for a sale.')
+}
