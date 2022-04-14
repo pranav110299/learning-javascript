@@ -22,3 +22,5 @@ console.log(0.2708 * 100);
 process of appending one string to another is called concatenation. 
 6. Properties :
 When you introduce a new piece of data into a JavaScript program, the browser saves it as an instance of the data type. All data types have access to specific properties that are passed down to each instance.
+eg : console.log('Teaching the world how to code'.length);
+    length= 30
