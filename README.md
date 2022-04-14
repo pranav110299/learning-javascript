@@ -31,4 +31,5 @@ We call, or use, these methods by appending an instance with:
 a period (the dot operator)
 the name of the method
 opening and closing parentheses
-
+eg: console.log('Codecademy'.toUpperCase());
+console.log('    Remove whitespace   '.trim());
