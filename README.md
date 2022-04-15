@@ -89,3 +89,5 @@ if (hungerLevel > 7){
   console.log('We can eat later!');
 };
 
+13.  Functions : A function is a reusable block of code that groups together a sequence of statements to perform a specific task.
+
