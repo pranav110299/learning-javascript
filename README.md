@@ -91,3 +91,4 @@ if (hungerLevel > 7){
 
 13.  Functions : A function is a reusable block of code that groups together a sequence of statements to perform a specific task.
 
+14. Function declaration :  a function declaration binds a function to a name, or an identifier. 
