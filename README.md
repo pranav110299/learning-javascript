@@ -92,12 +92,19 @@ if (hungerLevel > 7){
 13.  Functions : A function is a reusable block of code that groups together a sequence of statements to perform a specific task.
 
 14. Function declaration :  a function declaration binds a function to a name, or an identifier. 
-15. Calling a function : a function declaration does not ask the code inside the function body to run, it just declares the existence of the function. The code inside a function body runs, or executes, only when the function is called.
+15.  Calling a function : a function declaration does not ask the code inside the function body to run, it just declares the existence of the function. The code inside a function body runs, or executes, only when the function is called.
 
 To call a function in your code, you type the function name followed by parentheses.
- 16. Parameters and arguements : Parameters allow functions to accept input(s) and perform a task using the input(s). We use parameters as placeholders for information that will be passed to the function when it is called.
+16. Parameters and arguements : Parameters allow functions to accept input(s) and perform a task using the input(s). We use parameters as placeholders for information that will be passed to the function when it is called.
  The values that are passed to the function when it is called are called arguments. Arguments can be passed to the function as values or variables.
  eg : function sayThanks(name) {
   console.log('Thank you for your purchase ' + name + '! We appreciate your business.');
 }
 sayThanks('Cole');
+
+17. Return : To pass back information from the function call, we use a return statement. To create a return statement, we use the return keyword followed by the value that we wish to return.
+eg : function monitorCount(rows, columns) {
+  return rows * columns;
+}
+const numOfMonitors = monitorCount(5, 4);
+console.log(numOfMonitors);
