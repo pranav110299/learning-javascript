@@ -95,3 +95,9 @@ if (hungerLevel > 7){
 15. Calling a function : a function declaration does not ask the code inside the function body to run, it just declares the existence of the function. The code inside a function body runs, or executes, only when the function is called.
 
 To call a function in your code, you type the function name followed by parentheses.
+ 16. Parameters and arguements : Parameters allow functions to accept input(s) and perform a task using the input(s). We use parameters as placeholders for information that will be passed to the function when it is called.
+ The values that are passed to the function when it is called are called arguments. Arguments can be passed to the function as values or variables.
+ eg : function sayThanks(name) {
+  console.log('Thank you for your purchase ' + name + '! We appreciate your business.');
+}
+sayThanks('Cole');
