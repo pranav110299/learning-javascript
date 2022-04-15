@@ -117,3 +117,14 @@ function costOfMonitors(rows, columns) {
 }
 const totalCost = costOfMonitors(5, 4);
 console.log(totalCost);
+19. Function Expressions :  In a function expression, the function name is usually omitted. A function with no name is called an anonymous function. A function expression is often stored in a variable in order to refer to it.
+eg : const plantNeedsWater = function(day, plantNeedsWater) {
+  if (day === 'Wednesday'){
+     return true;
+  }
+ else {
+   return false;
+ }
+ plantNeedsWater('Tuesday');
+}
+console.log(plantNeedsWater('Tuesday'));
