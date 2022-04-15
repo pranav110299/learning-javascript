@@ -128,3 +128,12 @@ eg : const plantNeedsWater = function(day, plantNeedsWater) {
  plantNeedsWater('Tuesday');
 }
 console.log(plantNeedsWater('Tuesday'));
+
+20. Arrow Functions : 
+eg : const plantNeedsWater = (day) => {
+  if (day === 'Wednesday') {
+    return true;
+  } else {
+    return false;
+  }
+};
