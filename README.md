@@ -147,3 +147,8 @@ eg: const squareNum = (num) => {
   return num * num;
 };
 output : const squareNum = num => num * num;
+
+22. Looping through arrays : To loop through each element in an array, a for loop should use the array’s .length property in its condition.
+eg : for (let i = 0; i < vacationSpots.length; i++ ) {
+  console.log('I would love to visit ' + vacationSpots[i]);
+}
