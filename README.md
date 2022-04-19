@@ -152,3 +152,23 @@ output : const squareNum = num => num * num;
 eg : for (let i = 0; i < vacationSpots.length; i++ ) {
   console.log('I would love to visit ' + vacationSpots[i]);
 }
+
+23. Iterators -
+1) .filter() method :
+.filter() returns an array of elements after filtering out certain elements from the original array. The callback function for the .filter() method should return true or false depending on the element that is passed to it. The elements that cause the callback function to return true are added to the new array. 
+eg-
+const randomNumbers = [375, 200, 3.14, 7, 13, 852];
+
+// Call .filter() on randomNumbers below
+const smallNumbers = randomNumbers.filter(num => {
+  return num < 250;
+});
+console.log(smallNumbers);
+const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
+
+
+// Call .filter() on favoriteWords below
+const longFavoriteWords = favoriteWords.filter(string => {
+  return string.length > 7;
+});
+console.log(longFavoriteWords);
