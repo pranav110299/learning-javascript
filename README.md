@@ -304,6 +304,8 @@ for (let crewMember in spaceship.crew) {
   console.log(`${spaceship.crew[crewMember].name}: ${spaceship.crew[crewMember].degree}`)
 };
 
+* ADVANCE OBJECTS :
+
 25. The this keyword :
 this keyword is a calling object.
 eg=
