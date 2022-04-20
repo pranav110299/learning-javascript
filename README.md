@@ -107,7 +107,7 @@ eg : function monitorCount(rows, columns) {
   return rows * columns;
 }
 const numOfMonitors = monitorCount(5, 4);
-console.log(numOfMonitors);
+console.log(numOfMonitors); 
 18. Helper functions : We can also use the return value of a function inside another function. These functions being called within another function are often referred to as helper functions. 
 eg : function monitorCount(rows, columns) {
   return rows * columns;
@@ -231,4 +231,40 @@ console.log(words.some(word => {
 const interestingWords = words.filter((word) => {return word.length > 5});
 
 console.log(interestingWords.every((word) => {return word.length > 5}));
+
+24. Objects :
+1) Nested objects : In application code, objects are often nested— an object might have another object as a property which in turn could have a property that’s an array of even more objects!
+
+eg =
+let spaceship = {
+  passengers: [{name: 'Space Dog'}],
+  telescope: {
+    yearBuilt: 2018,
+    model: "91031-XLT",
+    focalLength: 2032 
+  },
+  crew: {
+    captain: { 
+      name: 'Sandra', 
+      degree: 'Computer Engineering', 
+      encourageTeam() { console.log('We got this!') },
+     'favorite foods': ['cookies', 'cakes', 'candy', 'spinach'] }
+  },
+  engine: {
+    model: "Nimbus2000"
+  },
+  nanoelectronics: {
+    computer: {
+      terabytes: 100,
+      monitors: "HD"
+    },
+    'back-up': {
+      battery: "Lithium",
+      terabytes: 50 
+    }
+  }
+}; 
+
+let capFave = spaceship.crew.captain['favorite foods'][0];
+let firstPassenger = spaceship.passengers[0]
 
