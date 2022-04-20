@@ -206,3 +206,29 @@ The value of currentValue:  5
 The value of accumualtor:  19
 The value of currentValue:  7
 26  
+
+4) Iterator documentation :
+The documentation for each method contains several sections:
+
+A short definition.
+A block with the correct syntax for using the method.
+A list of parameters the method accepts or requires.
+The return value of the function.
+An extended description.
+Examples of the method’s use.
+Other additional information.
+
+eg=
+const words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
+
+// Something is missing in the method call below
+
+console.log(words.some(word => {
+  return word.length < 6;
+}));
+
+// Use filter to create a new array
+const interestingWords = words.filter((word) => {return word.length > 5});
+
+console.log(interestingWords.every((word) => {return word.length > 5}));
+
