@@ -396,3 +396,5 @@ const robot = {
 
 const { functionality } = robot;
 functionality.beep();
+
+31. Built-in objects methods
