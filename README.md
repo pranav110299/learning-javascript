@@ -318,3 +318,11 @@ provideInfo() {
 };
 
 console.log(robot.provideInfo());
+
+26. Getters : Getters are methods that get and return the internal properties of an object. But they can do more than just retrieve the value of a property.
+* notable advantages of using getter methods:
+
+Getters can perform an action on the data when getting a property.
+Getters can return different values using conditionals.
+In a getter, we can access the properties of the calling object using this.
+The functionality of our code is easier for other developers to understand.
